@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+  background-image: url(assets/images/background-pattern-desktop.svg);
+  background-color: #bea3ce;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+app-root,
+main {
+  height: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url(assets/images/background-pattern-mobile.svg);
+  }
+}

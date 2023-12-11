@@ -1,0 +1,18 @@
+body {
+  --bs-accordion-btn-icon: url(../../assets/images/icon-plus.svg);
+}
+
+.primaryColor {
+  color: #311535;
+}
+
+.title {
+  font-size: 3.4em;
+  margin: 0.67em 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 2.2em;
+  }
+}
